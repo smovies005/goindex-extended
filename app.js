@@ -5582,11 +5582,11 @@ function init() {
   `;
   if (UI.credits) {
     html += `
-    <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
-      <a href="https://t.me/d_movie_office" target="_blank">
-        hello how are you ? 
-      </a>
-    </div>
+    // <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
+    //   <a href="https://t.me/d_movie_office" target="_blank">
+    //     hello how are you ? 
+    //   </a>
+    // </div>
     </div>
     `
   } else {
