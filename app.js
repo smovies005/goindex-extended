@@ -5584,7 +5584,7 @@ function init() {
     html += `
     <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
       <a href="https://t.me/d_movie_office" target="_blank">
-        <img src="images/tele.png" alt="le...">
+        hello how are you ? 
       </a>
     </div>
     </div>
