@@ -5584,7 +5584,7 @@ function init() {
     html += `
     <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
       <a href="https://t.me/d_movie_office" target="_blank">
-        <img src="https://img.shields.io/static/v1?label=cheems&amp;message=goindex-extended&amp;color=1E89F2&amp;labelColor=374455&amp;logo=github" alt="cheems - goindex-extended">
+        <img src="images/tele.png" alt="le...">
       </a>
     </div>
     </div>
