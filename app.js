@@ -5577,23 +5577,25 @@ function init() {
 		<div id="head_md" class="mdui-typo nexmoe-item" style="display:none;padding: 20px 0;"></div>
 		<div id="content" class="nexmoe-item"></div>
 	 	<div id="readme_md" class="mdui-typo nexmoe-item" style="display:none; padding: 20px 0;"></div>
+     </div>
+     </div>
   </div>
   <div class="mdui-center mdui-text-center mdui-text-color-blue-grey-5001" style="margin-bottom: 20px">${UI.footer_text}</div>
   `;
-  if (UI.credits) {
-    html += `
-    // <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
-    //   <a href="https://t.me/d_movie_office" target="_blank">
-    //     hello how are you ? 
-    //   </a>
-    // </div>
-    </div>
-    `
-  } else {
-    html += `
-    </div>
-    `
-  }
+  // if (UI.credits) {
+  //   html += `
+  //   // <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
+  //   //   <a href="https://t.me/d_movie_office" target="_blank">
+  //   //     hello how are you ? 
+  //   //   </a>
+  //   // </div>
+    
+  //   `
+  // } else {
+  //   html += `
+    
+  //   `
+  // }
   $("body").html(html);
 }
 const Os = {
