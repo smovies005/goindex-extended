@@ -5744,10 +5744,10 @@ function list(path) {
 	     File
 	<i class="mdui-icon material-icons icon-sort" data-sort="name" data-order="more">expand_more</i>
 	    </div> 
-	    <div class="mdui-col-sm-3 mdui-text-right">
-		Date Modified
-	<i class="mdui-icon material-icons icon-sort" data-sort="date" data-order="downward">expand_more</i>
-	    </div> 
+	//     <div class="mdui-col-sm-3 mdui-text-right">
+	// 	Date Modified
+	// <i class="mdui-icon material-icons icon-sort" data-sort="date" data-order="downward">expand_more</i>
+	//     </div> 
 	    <div class="mdui-col-sm-2 mdui-text-right">
 	     Size
 	<i class="mdui-icon material-icons icon-sort" data-sort="size" data-order="downward">expand_more</i>
@@ -5955,10 +5955,10 @@ function render_search_result_list() {
 	     File
 	<i class="mdui-icon material-icons icon-sort" data-sort="name" data-order="more">expand_more</i>
 	    </div> 
-	    <div class="mdui-col-sm-3 mdui-text-right">
-	     Date Modified
-	<i class="mdui-icon material-icons icon-sort" data-sort="date" data-order="downward">expand_more</i>
-	    </div> 
+	//     <div class="mdui-col-sm-3 mdui-text-right">
+	//      Date Modified
+	// <i class="mdui-icon material-icons icon-sort" data-sort="date" data-order="downward">expand_more</i>
+	//     </div> 
 	    <div class="mdui-col-sm-2 mdui-text-right">
 	     Size
 	<i class="mdui-icon material-icons icon-sort" data-sort="size" data-order="downward">expand_more</i>
@@ -6045,7 +6045,9 @@ function append_search_result_to_list(files) {
 	            <i class="mdui-icon material-icons">folder_open</i>
 	              ${item.name}
 	            </div>
-	            <div class="mdui-col-sm-3 mdui-text-right">${item["modifiedTime"]}</div>
+	            <div class="mdui-col-sm-3 mdui-text-right">
+              // hello
+              </div>
 	            <div class="mdui-col-sm-2 mdui-text-right">${item["size"]}</div>
 	            </a>
 	        </li>`;
