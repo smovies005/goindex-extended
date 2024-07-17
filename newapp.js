@@ -5857,7 +5857,7 @@ function append_files_to_list(path, files) {
 	            <i class="mdui-icon material-icons">folder_open</i>
 	              ${item.name}
 	            </div>
-	            <div class="mdui-col-sm-3 mdui-text-right">${item["modifiedTime"]}</div>
+	            <div class="mdui-col-sm-3 mdui-text-right">hello</div>
 	            <div class="mdui-col-sm-2 mdui-text-right">${item["size"]}</div>
 	            </a>
               <div class="mdui-col-sm-2 mdui-text-right dummyclass">
@@ -5902,7 +5902,7 @@ function append_files_to_list(path, files) {
 	          <i class="mdui-icon material-icons">insert_drive_file</i>
 	            ${item.name}
 	          </div>
-	          <div class="mdui-col-sm-3 mdui-text-right">${item["modifiedTime"]}</div>
+	          <div class="mdui-col-sm-3 mdui-text-right">hello</div>
 	          <div class="mdui-col-sm-2 mdui-text-right">${item["size"]}</div>
 	          </a>
             <div class="mdui-col-sm-2 mdui-text-right dummyclass">
@@ -6044,6 +6044,7 @@ function append_search_result_to_list(files) {
 	            <div class="mdui-col-xs-12 mdui-col-sm-7 mdui-text-truncate" title="${item.name}">
 	            <i class="mdui-icon material-icons">folder_open</i>
 	              ${item.name}
+               hello
 	            </div>
 	            <div class="mdui-col-sm-3 mdui-text-right">
               // hello
@@ -6069,7 +6070,7 @@ function append_search_result_to_list(files) {
 	          <i class="mdui-icon material-icons">insert_drive_file</i>
 	            ${item.name}
 	          </div>
-	          <div class="mdui-col-sm-3 mdui-text-right">${item["modifiedTime"]}</div>
+	          <div class="mdui-col-sm-3 mdui-text-right">hello</div>
 	          <div class="mdui-col-sm-2 mdui-text-right">${item["size"]}</div>
 	          </a>
 	      </li>`;
