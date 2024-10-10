@@ -6196,11 +6196,15 @@ function file_code(path) {
 </div>
 <div class="mdui-textfield">
 	<label class="mdui-textfield-label">File Name</label>
-	<input class="mdui-textfield-input" type="text" value="${file_name}"/>
+	<input class="mdui-textfield-input" type="text" value="${file_name}" disabled/>
 </div>
 <div class="mdui-textfield">
 	<label class="mdui-textfield-label">Download Link</label>
-	<input class="mdui-textfield-input" type="text" value="${href}"/>
+	<input class="mdui-textfield-input" type="text" value="${href}" disabled />
+</div>
+<div class="mdui-textfield">
+	<button class="mdui-textfield-label"><a href="${href}?inline=true">full View</a></button>
+	<input class="mdui-textfield-input" type="text" value="${href}" disabled />
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
