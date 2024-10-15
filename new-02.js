@@ -6203,7 +6203,8 @@ function file_code(path) {
 	<input class="mdui-textfield-input" type="text" value="${href}" disabled />
 </div>
 <div class="mdui-textfield">
-	<button class="mdui-textfield-input" onclick="window.open('${href}?inline=true','_blank')" />
+  <label class="mdui-textfield-label">View Full Screen</label>
+	<button  onclick="window.open('${href}?inline=true','_blank')" >Full Screen</button>
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
@@ -6278,8 +6279,9 @@ function file_video(path) {
 	  <label class="mdui-textfield-label">Download Link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}" disabled />
 	</div>
-  <div class="mdui-textfield">
-	<button class="mdui-textfield-input" onclick="window.open('${url}?inline=true','_blank')" />
+<div class="mdui-textfield">
+  <label class="mdui-textfield-label">View Full Screen</label>
+	<button  onclick="window.open('${url}?inline=true','_blank')" >Full Screen</button>
 </div>
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
@@ -6320,8 +6322,9 @@ function file_audio(path) {
 	  <label class="mdui-textfield-label">Download Link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url} disabled "/>
 	</div>
-  <div class="mdui-textfield">
-	<button class="mdui-textfield-input" onclick="window.open('${url}?inline=true','_blank')" />
+<div class="mdui-textfield">
+  <label class="mdui-textfield-label">View Full Screen</label>
+	<button  onclick="window.open('${url}?inline=true','_blank')" >Full Screen</button>
 </div>
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
@@ -6347,8 +6350,9 @@ function file_pdf(path) {
 	  <label class="mdui-textfield-label">Download Link</label>
 	  <input class="mdui-textfield-input" type="text" value="${url}" disabled />
 	</div>
-  <div class="mdui-textfield">
-	<button class="mdui-textfield-input" onclick="window.open('${url}?inline=true','_blank')" />
+<div class="mdui-textfield">
+  <label class="mdui-textfield-label">View Full Screen</label>
+	<button  onclick="window.open('${url}?inline=true','_blank')" >Full Screen</button>
 </div>
   <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
@@ -6420,7 +6424,8 @@ function file_image(path) {
 	  <input class="mdui-textfield-input" type="text" value="${url} disabled "/>
 	</div>
 <div class="mdui-textfield">
-	<button class="mdui-textfield-input" onclick="window.open('${url}?inline=true','_blank')" />
+  <label class="mdui-textfield-label">View Full Screen</label>
+	<button  onclick="window.open('${url}?inline=true','_blank')" >Full Screen</button>
 </div>
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
