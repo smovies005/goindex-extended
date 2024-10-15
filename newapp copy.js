@@ -5864,7 +5864,7 @@ function append_files_to_list(path, files) {
 	              <button onclick="window.open('${p}','_blank')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
                   <i class="mdui-icon material-icons dummyclass">launch</i>
                 </button>
-                <button onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${p}?inline=true')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+                <button onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${p}')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
                   <i class="mdui-icon material-icons dummyclass">content_copy</i>
                 </button>
               </div>
@@ -5912,7 +5912,7 @@ function append_files_to_list(path, files) {
               <button onclick="window.open('${p}','_blank')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
                 <i class="mdui-icon material-icons dummyclass">launch</i>
               </button>
-              <button onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${ddl_link}?inline=true')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
+              <button onclick="(function setClipboard(value) {var tempInput = document.createElement('input');tempInput.style = 'position: absolute; left: -1000px; top: -1000px';tempInput.value = value;document.body.appendChild(tempInput);tempInput.select();document.execCommand('copy');document.body.removeChild(tempInput);})(window.location.protocol + '//' + window.location.hostname + '${ddl_link}')" class="mdui-textfield-icon mdui-btn mdui-btn-icon dummyclass" style="float: right;">
                 <i class="mdui-icon material-icons dummyclass">content_copy</i>
               </button>
             </div>
@@ -6273,11 +6273,11 @@ function file_video(path) {
 	<!-- ???? -->
   <div class="mdui-textfield">
 	  <label class="mdui-textfield-label">File Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${file_name}" disabled />
+	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}" disabled />
+	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
@@ -6312,11 +6312,11 @@ function file_audio(path) {
 	<!-- ???? -->
   <div class="mdui-textfield">
 	  <label class="mdui-textfield-label">File Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${file_name} disabled"/>
+	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url} disabled "/>
+	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
 </div>
 <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
@@ -6336,11 +6336,11 @@ function file_pdf(path) {
 	<!-- ???? -->
   <div class="mdui-textfield">
 	  <label class="mdui-textfield-label">File Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${display_name}" disabled />
+	  <input class="mdui-textfield-input" type="text" value="${display_name}"/>
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url}" disabled />
+	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
   <a href="${url}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 	`;
@@ -6405,11 +6405,11 @@ function file_image(path) {
 	<br>
   <div class="mdui-textfield">
 	  <label class="mdui-textfield-label">File Name</label>
-	  <input class="mdui-textfield-input" type="text" value="${file_name} disabled "/>
+	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
-	  <input class="mdui-textfield-input" type="text" value="${url} disabled "/>
+	  <input class="mdui-textfield-input" type="text" value="${url}"/>
 	</div>
         <br>
 </div>
